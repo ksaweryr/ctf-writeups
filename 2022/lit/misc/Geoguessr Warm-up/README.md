@@ -5,7 +5,10 @@
 > [geoguessrwarmup.png](https://drive.google.com/uc?export=download&id=1a0e58oRCqNVkFjqATku9xl9tNnvU43uP)
 
 ## Determining the region
-A garland of characteristic flags can be seen under the "gh arms" signboard: ![media/flags.png](media/flags.png)
+A garland of characteristic flags can be seen under the "gh arms" signboard:
+
+![media/flags.png](media/flags.png)
+
 Googling "white-red flag with a red castle" immediately yields the flag of Gibraltar, which looks exactly the same as the mentioned flags.
 
 ## Determining the coordinates

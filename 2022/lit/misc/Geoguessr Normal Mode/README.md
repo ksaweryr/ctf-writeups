@@ -5,11 +5,17 @@
 > [geoguessrnormal.png](https://drive.google.com/uc?export=download&id=1I5HJIy0HMBpYlohuJdjeITiYlIw5s1Y0)
 
 ## Determining the city
-The first hint is the plaque in front of the lifebuoy in the bottom-right corner of the picture: ![media/buoy.png](media/buoy.png)
+The first hint is the plaque in front of the lifebuoy in the bottom-right corner of the picture:
+
+![media/buoy.png](media/buoy.png)
+
 It contains text in 3 languages: Chinese, Portuguese and English, in this exact order, which suggest that the picture was taken in Asia in a place where Portuguese is a widely-used (or even official) language. [This Wikipedia article](https://en.wikipedia.org/wiki/Portuguese_language_in_Asia) lists such places with Macau - a former Portuguese colony, now a special administrative region and city in China - being the only Chinese region among them.
 
 ## Identifying the buildings
-The most distinct building visible in the picture is the illuminated tower with a red light on top of it: ![media/tower.png](media/tower.png)
+The most distinct building visible in the picture is the illuminated tower with a red light on top of it:
+
+![media/tower.png](media/tower.png)
+
 Scrolling through the results of query "macau tower with a red light on top" in Google Images eventually leads to a picture with familiar-looking building, which is a cover of an article titled ["How Macau became the world's casino capital"](https://theconversation.com/how-macau-became-the-worlds-casino-capital-108866), suggesting we should be looking for a casino. After looking at photos of various casinos around the city, we can identify the tower as Casino Lisboa.
 
 ## Determining the coordinates
