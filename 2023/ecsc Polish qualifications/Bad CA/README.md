@@ -2,7 +2,7 @@
 
 > The corporate has set up their new fancy CA with ACME protocol. We use it to automatically issue certificates for all our internal services. Moreover, every employee was requested to install our new cool Root CA certificate.
 >
-> `https://bad-ca.ecsc23.hack.cert.pl/`
+> https://bad-ca.ecsc23.hack.cert.pl/
 >
 > It's just running for a few months and we have noticed that something extremely strange is going on. Somebody has obtained the correct certificate for example.com o_O. Just look:
 >
