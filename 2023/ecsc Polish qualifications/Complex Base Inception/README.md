@@ -9,7 +9,9 @@
 > https://complex-base-inception.ecsc23.hack.cert.pl/
 
 ## Recon
-The website contains a form which allows to upload photos and a subpage to view uploaded photos. Clicking `send` sends a XHR request to the server with `image` form field set to `data:image/png;base64,[base64-encoded image]`. Upon changing the value of the field to `foobar` and inspecting response content, the following can be seen: ![warning](media/warning.png)
+The website contains a form which allows to upload photos and a subpage to view uploaded photos. Clicking `send` sends a XHR request to the server with `image` form field set to `data:image/png;base64,[base64-encoded image]`. Upon changing the value of the field to `foobar` and inspecting response content, the following can be seen:
+
+![warning](media/warning.png)
 
 The `image` field is passed to php function `file_get_contents`, which means we can use it to read arbitrary files from the server's filesystem. Their contents can be intercepted in the gallery, by base64-decoding souces of `img` tags present there.
 
@@ -51,7 +53,7 @@ and the correct password.
 In the user's home folder, a file named `flag.b64` is present, but it is owned and can only be read by root.
 
 ## Finding a way to read the flag
-Running a tool line [linpeas](https://github.com/carlospolop/PEASS-ng/releases/tag/20230724-deeec83e) reveals that the executable `/usr/bin/base32` has SUID bit set, which means it can be used to read the flag:
+Running a tool like [linpeas](https://github.com/carlospolop/PEASS-ng/releases/tag/20230724-deeec83e) reveals that the executable `/usr/bin/base32` has SUID bit set, which means it can be used to read the flag:
 ```sh
 $ /usr/bin/base32 ~/flag.b64 | base32 -d | base64 -d
 ecsc23{some_unguessable_text_and_some_salt_dtcpkhaa}
