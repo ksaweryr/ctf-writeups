@@ -30,7 +30,7 @@ print(f'enc = {enc}')
 ```
 The `encrypt` function creates a degree $t$ polynomial with the constant term being the secret and $t$ shares. This is just regular Shamir's secret sharing scheme and the secret can be recovered by interpolating the polynomial, e.g. using Lagrange's method, and evaluating it at $x = 0$.
 
-However, the secret hidden in the polynomial is not the flag, rather a number $c$ s.t. $c \equiv m^e \mod p$. Since $p$ is prime, from Euler's theorem it follows that: $m^{p - 1} \equiv m \mod p$, therefore $c^{y} \equiv m \mod p$ where $y \equiv e^{-1} \mod p - 1$. However such $y$ does not exist, as both $e$ and $p - 1$ are even (and therefore not coprime). Fortunately 2 is the only common factor of $e$ and $p - 1$, so we can calculate $m^2 \equiv c^{z} \mod p$ where $z \equiv (\frac{e}{2})^{-1} \mod p - 1$ and then calculate the modular square root of $m^2 \mod p$. The whole solution can be implemented with just a few lines of SageMath code:
+However, the secret hidden in the polynomial is not the flag, rather a number $c$ s.t. $c \equiv m^e\ (mod\ p)$. Since $p$ is prime, from Euler's theorem it follows that: $m^{p - 1} \equiv m\ (mod\ p)$, therefore $c^{y} \equiv m\ (mod\ p)$ where $y \equiv e^{-1}\ (mod\ p - 1)$. However such $y$ does not exist, as both $e$ and $p - 1$ are even (and therefore not coprime). Fortunately 2 is the only common factor of $e$ and $p - 1$, so we can calculate $m^2 \equiv c^{z}\ (mod\ p)$ where $z \equiv (\frac{e}{2})^{-1}\ (mod\ p - 1)$ and then calculate the modular square root of $m^2\ (mod\ p)$. The whole solution can be implemented with just a few lines of SageMath code:
 ```py
 from Crypto.Util.number import long_to_bytes
 
