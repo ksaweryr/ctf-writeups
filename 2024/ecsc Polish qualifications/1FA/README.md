@@ -49,5 +49,5 @@ def mfa():
 8. Profit
 
 ## Flag
-`ecsc24{sl0w_4nd_5t3ady_w1ns_th3_r4ce}`
+`ecsc24{y0u'v3_w0n_7h3_r4c3}`
  
