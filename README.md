@@ -100,3 +100,13 @@ This repository contains writeups I've made to some of the challenges from CTFs 
 | [The zettabyte file search](./2024/ecsc%20Polish%20qualifier/The%20zettabyte%20file%20search/) | forensics | disk dump, file recovery |
 | [Over The Domain](./2024/ecsc%20Polish%20qualifier/Over%20The%20Domain/) | stegano | DNS data exfiltration |
 | [notCrypto](./2024/ecsc%20Polish%20qualifier/notCrypto/) | misc | off-by-one |
+
+### [SunshineCTF](https://ctftime.org/event/2485)
+
+| Name | Category | Tags |
+| -- | -- | -- |
+| [Build A Flag Workshop](./2024/sunshinectf/Build%20A%20Flag%20Workshop/) | reversing | C, md5 |
+| [Flag Shop](./2024/sunshinectf/Flag%20Shop/) | pwn | buffer overflow, format string |
+| [Welcome to the Jungle!](./2024/sunshinectf/Welcome%20to%20the%20Jungle!/) | pwn | UAF, tcache poisoning, ROP, ret2libc |
+| [Titusville](./2024/sunshinectf/Titusville/) | I-95 (speedrun pwn) | ROP |
+| [Jupiter](./2024/sunshinectf/Jupiter/) | I-95 (speedrun pwn) | format string, GOT |
