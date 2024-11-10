@@ -111,3 +111,8 @@ This repository contains writeups I've made to some of the challenges from CTFs 
 | [heap01](./2024/sunshinectf/heap01/) | pwn | tcache, ret2win |
 | [Titusville](./2024/sunshinectf/Titusville/) | I-95 (speedrun pwn) | ROP |
 | [Jupiter](./2024/sunshinectf/Jupiter/) | I-95 (speedrun pwn) | format string, GOT |
+
+### [N1CTF](https://ctftime.org/event/2459)
+| Name | Category | Tags |
+| -- | -- | -- |
+| [N0TR5A](./2024/N1CTF/N0TR5A/) | crypto | RSA, LLL |
