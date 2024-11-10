@@ -20,10 +20,10 @@ $$
 \begin{bmatrix}
 k_0 & k_1 & \ldots & k_n & \frac{1}{2^{562}} & 0 \\
 -e_0 & -e_1 & \ldots & -e_n & 0 & 0\\
--2e_0 + 1 & -4e_1 & \ldots & -2(n + 1)e_n + 1 & 0 & 1 \\
+-2e_0 + 1 & -4e_1 + 1 & \ldots & -2(n + 1)e_n + 1 & 0 & 1 \\
 2^{562} & 0 & \ldots & 0 & 0 & 0 \\
 0 & 2^{562} & \ldots & 0 & 0 & 0 \\
-\vdots & \vdots & \vdots & \vdots & \vdots & \vdots \\
+\vdots & \vdots & \ddots & \vdots & \vdots & \vdots \\
 0 & 0 & \ldots & 2^{562} & 0 & 0
 \end{bmatrix}
 $$
