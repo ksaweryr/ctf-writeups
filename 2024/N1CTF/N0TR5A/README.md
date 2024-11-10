@@ -15,6 +15,7 @@ $$
 ## Finding $\phi(n)...$ $\mod 2^{562}$
 
 The following lattice can be reduced using LLL to find $\phi(n) \mod 2^{562}$ (let's call that value $\phi_1$):
+
 $$
 \begin{bmatrix}
 k_0 & k_1 & \ldots & k_n & \frac{1}{2^{562}} & 0 \\
@@ -24,7 +25,6 @@ k_0 & k_1 & \ldots & k_n & \frac{1}{2^{562}} & 0 \\
 0 & 2^{562} & \ldots & 0 & 0 & 0 \\
 \vdots & \vdots & \vdots & \vdots & \vdots & \vdots \\
 0 & 0 & \ldots & 2^{562} & 0 & 0
-
 \end{bmatrix}
 $$
 
