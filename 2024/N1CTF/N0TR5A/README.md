@@ -7,7 +7,7 @@
 > `crypto_n0tr5a.zip`
 
 ## Solution
-Given are: 1024-bit RSA modulus $n$, flag encrypted with that modulus, and 12 pairs of numbers $(e_i, k_i)$ such that $e_i \equiv ee_i \mod 2^{562}$ and $k_i = \frac{ee_i \cdot dd_i - 1}{\phi(n)}$ where $dd_i = key + 2(i + 1)$ and $ee_i \equiv dd_i^{-1} \mod \phi(n)$ where $key$ is a 462-bit prime. Through simple algebraic manipulations, the following equation can be derived:
+Given are: 1024-bit RSA modulus $n$, flag encrypted with that modulus, and 12 pairs of numbers $(e_i, k_i)$ such that $e_i \equiv ee_i \mod 2^{562}$ and $k_i = \frac{ee_i \cdot dd_i - 1}{\phi(n)}$ where $dd_i = key + 2(i + 1)$ and $ee_i \equiv dd_i^{-1} \mod \phi(n)$ where $key$ is a 462-bit prime. Through simple algebraic manipulations, the following congurence can be derived:
 $$
 k_i \cdot \phi(n) - e_i \cdot key - e_i \cdot 2(i + 1) + 1 \equiv 0 \mod 2^{562}
 $$
