@@ -116,3 +116,29 @@ This repository contains writeups I've made to some of the challenges from CTFs 
 | Name | Category | Tags |
 | -- | -- | -- |
 | [N0TR5A](./2024/N1CTF/N0TR5A/) | crypto | RSA, LLL |
+
+
+### [ECSC Polish qualifier](https://hack.cert.pl)
+| Name | Category | Tags |
+| -- | -- | -- |
+| [Sanity check](./2025/ecsc%20Polish%20qualifier/Sanity%20check/) | misc | - |
+| [Warmup: Web](./2025/ecsc%20Polish%20qualifier/Warmup:%20Web/) | web, warmup | SQL injection |
+| [Warmup: Crypto](./2025/ecsc%20Polish%20qualifier/Warmup:%20Crypto/) | crypto, warmup | block cipher, nonce reuse |
+| [Warmup: RE](./2025/ecsc%20Polish%20qualifier/Warmup:%20RE/) | re, warmup | - |
+| [Warmup: Pwn](./2025/ecsc%20Polish%20qualifier/Warmup:%20Pwn/) | pwn, warmup | stack overflow, ret2win |
+| [GET my POST](./2025/ecsc%20Polish%20qualifier/GET%20my%20POST/) | web | HTTP redirect |
+| [MySchool](./2025/ecsc%20Polish%20qualifier/MySchool/) | web | MySQL |
+| [Photo Archiver](./2025/ecsc%20Polish%20qualifier/Photo%20Archiver/) | web | DNS |
+| [Easy MFA]() | web, crypto | randcrack |
+| [Levelled MFA]() | web, crypto | LCG, LLL |
+| [CERTLE]() | web | XSS |
+| [Yet Another WAF]() | web, re | parser differentials |
+| [re-crackme]() | re | z3 |
+| [Quine]() | re | VM |
+| [Sneaky Train]() | re | - |
+| [SHA-CTR]() | crypto | hash extension, known plaintext |
+| [Enter the Matrix]() | crypto | LLL |
+| [kumbukumbu]() | crypto, re, web | obfuscation, RSA |
+| [Caller]() | misc | C |
+| [Maze Runner]() | misc | sandbox escape |
+| [Flag Guardian]() | misc | LLM |
