@@ -117,8 +117,10 @@ This repository contains writeups I've made to some of the challenges from CTFs 
 | -- | -- | -- |
 | [N0TR5A](./2024/N1CTF/N0TR5A/) | crypto | RSA, LLL |
 
+## 2025
 
 ### [ECSC Polish qualifier](https://hack.cert.pl)
+
 | Name | Category | Tags |
 | -- | -- | -- |
 | [Sanity check](./2025/ecsc%20Polish%20qualifier/Sanity%20check/) | misc | - |
@@ -129,16 +131,16 @@ This repository contains writeups I've made to some of the challenges from CTFs 
 | [GET my POST](./2025/ecsc%20Polish%20qualifier/GET%20my%20POST/) | web | HTTP redirect |
 | [MySchool](./2025/ecsc%20Polish%20qualifier/MySchool/) | web | MySQL |
 | [Photo Archiver](./2025/ecsc%20Polish%20qualifier/Photo%20Archiver/) | web | DNS |
-| [Easy MFA]() | web, crypto | randcrack |
-| [Levelled MFA]() | web, crypto | LCG, LLL |
-| [CERTLE]() | web | XSS |
-| [Yet Another WAF]() | web, re | parser differentials |
-| [re-crackme]() | re | z3 |
-| [Quine]() | re | VM |
-| [Sneaky Train]() | re | - |
-| [SHA-CTR]() | crypto | hash extension, known plaintext |
-| [Enter the Matrix]() | crypto | LLL |
-| [kumbukumbu]() | crypto, re, web | obfuscation, RSA |
-| [Caller]() | misc | C |
-| [Maze Runner]() | misc | sandbox escape |
-| [Flag Guardian]() | misc | LLM |
+| [Easy MFA](./2025/ecsc%20Polish%20qualifier/Easy%20MFA/) | web, crypto | randcrack |
+| [Levelled MFA](./2025/ecsc%20Polish%20qualifier/Levelled%20MFA/) | web, crypto | LCG, LLL |
+| [CERTLE](./2025/ecsc%20Polish%20qualifier/CERTLE/) | web | XSS |
+| [Yet Another WAF](./2025/ecsc%20Polish%20qualifier/Yet%20Another%20WAF/) | web, re | parser differentials |
+| [re-crackme](./2025/ecsc%20Polish%20qualifier/re-crackme/) | re | z3 |
+| [Quine](./2025/ecsc%20Polish%20qualifier/Quine/) | re | VM |
+| [Sneaky Train](./2025/ecsc%20Polish%20qualifier/Sneaky%20Train/) | re | - |
+| [SHA-CTR](./2025/ecsc%20Polish%20qualifier/SHA-CTR/) | crypto | hash extension, known plaintext |
+| [Enter the Matrix](./2025/ecsc%20Polish%20qualifier/Enter%20the%20Matrix/) | crypto | LLL |
+| [kumbukumbu](./2025/ecsc%20Polish%20qualifier/kumbukumbu/) | crypto, re, web | obfuscation, RSA |
+| [Caller](./2025/ecsc%20Polish%20qualifier/Caller/) | misc | C |
+| [Maze Runner](./2025/ecsc%20Polish%20qualifier/Maze%20Runner/) | misc | sandbox escape |
+| [Flag Guardian](./2025/ecsc%20Polish%20qualifier/Flag%20Guardian/) | misc | LLM |

@@ -1,4 +1,4 @@
-# GET my POST
+# MySchool
 
 > Old school web.
 >
